@@ -1,6 +1,12 @@
 {
   "version": 2,
   "projects": {
-    "api-express": "apps/api-express"
+    "api-express": "apps/api-express",
+    "next-app": "apps/next-app",
+    "next-app-e2e": "apps/next-app-e2e",
+    "react-app": "apps/react-app",
+    "react-app-e2e": "apps/react-app-e2e",
+    "react-shared-lib": "libs/react-shared-lib",
+    "shared-types": "libs/shared-types"
   }
 }

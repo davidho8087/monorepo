@@ -4,11 +4,18 @@
  */
 
 import * as express from 'express';
-
+import cors = require('cors');
+import { restaurants } from './resto-data';
 const app = express();
+
+app.use(cors());
 
 app.get('/api', (req, res) => {
   res.send({ message: 'Welcome to api-express!' });
+});
+
+app.get('/api/restaurant', (req, res) => {
+  res.send(restaurants);
 });
 
 const port = process.env.port || 3333;
