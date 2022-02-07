@@ -15,6 +15,7 @@ app.get('/api', (req, res) => {
 });
 
 app.get('/api/restaurant', (req, res) => {
+  console.log('testing');
   res.send(restaurants);
 });
 
