@@ -6,7 +6,7 @@ import { ApiFeatureRestoModule } from '@restaurant-workspace/api/feature-resto';
 import {
   MongoConfiguration,
   mongoConfiguration,
-} from '../../../../libs/api/utils-config/src';
+} from '@restaurant-workspace/api/utils-config';
 
 @Module({
   imports: [

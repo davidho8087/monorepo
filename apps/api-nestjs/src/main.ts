@@ -40,6 +40,7 @@ async function bootstrap() {
   const appConfig = app.get<AppConfiguration>(appConfiguration.KEY);
   const globalPrefix = 'api';
   app.setGlobalPrefix(globalPrefix);
+  app.enableCors();
   configureSwagger(appConfig, app, globalPrefix);
   await app.listen(appConfig.port);
   Logger.log(

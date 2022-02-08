@@ -9,11 +9,9 @@ export type RestoDocument = Resto & Document;
 })
 export class Resto {
   @Prop()
-  @ApiProperty()
   name: string;
 
   @Prop()
-  @ApiProperty()
   address: string;
 }
 

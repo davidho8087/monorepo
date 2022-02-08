@@ -10,7 +10,15 @@
         "outputPath": "dist/apps/api-nestjs",
         "main": "apps/api-nestjs/src/main.ts",
         "tsConfig": "apps/api-nestjs/tsconfig.app.json",
-        "assets": ["apps/api-nestjs/src/assets"]
+        "assets": ["apps/api-nestjs/src/assets"],
+        "tsPlugins": [
+          {
+            "name": "@nestjs/swagger/plugin",
+            "options": {
+              "dtoFileNameSuffix": [".dto.ts", ".model.ts"]
+            }
+          }
+        ]
       },
       "configurations": {
         "production": {
