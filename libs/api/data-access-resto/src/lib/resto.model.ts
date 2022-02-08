@@ -1,4 +1,5 @@
 import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
+import { ApiProperty } from '@nestjs/swagger';
 import { Document } from 'mongoose';
 
 export type RestoDocument = Resto & Document;
@@ -8,10 +9,12 @@ export type RestoDocument = Resto & Document;
 })
 export class Resto {
   @Prop()
+  @ApiProperty()
   name: string;
 
   @Prop()
-  address: number;
+  @ApiProperty()
+  address: string;
 }
 
 export const RestoSchema = SchemaFactory.createForClass(Resto);

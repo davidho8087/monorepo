@@ -15,6 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@restaurant-workspace/api/data-access-dtos": [
+        "libs/api/data-access-dtos/src/index.ts"
+      ],
       "@restaurant-workspace/api/data-access-resto": [
         "libs/api/data-access-resto/src/index.ts"
       ],
