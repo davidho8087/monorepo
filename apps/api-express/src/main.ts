@@ -82,6 +82,11 @@ async function listen(port: number) {
   server.applyMiddleware({ app });
 
   app.use(cors());
+
+  app.get('/api/restaurants', function (req, res) {
+    res.send(restaurants);
+  });
+
   return new Promise((resolve, reject) => {
     httpServer.listen(port).once('listening', resolve).once('error', reject);
   });
