@@ -15,6 +15,18 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@restaurant-workspace/api/data-access-resto": [
+        "libs/api/data-access-resto/src/index.ts"
+      ],
+      "@restaurant-workspace/api/feature-config": [
+        "libs/api/feature-config/src/index.ts"
+      ],
+      "@restaurant-workspace/api/feature-resto": [
+        "libs/api/feature-resto/src/index.ts"
+      ],
+      "@restaurant-workspace/api/utils-config": [
+        "libs/api/utils-config/src/index.ts"
+      ],
       "@restaurant-workspace/react-shared-lib": [
         "libs/react-shared-lib/src/index.ts"
       ],

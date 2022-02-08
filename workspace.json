@@ -1,8 +1,12 @@
 {
   "version": 2,
   "projects": {
+    "api-data-access-resto": "libs/api/data-access-resto",
     "api-express": "apps/api-express",
+    "api-feature-config": "libs/api/feature-config",
+    "api-feature-resto": "libs/api/feature-resto",
     "api-nestjs": "apps/api-nestjs",
+    "api-utils-config": "libs/api/utils-config",
     "next-app": "apps/next-app",
     "next-app-e2e": "apps/next-app-e2e",
     "react-app": "apps/react-app",
