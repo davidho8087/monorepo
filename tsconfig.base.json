@@ -21,14 +21,14 @@
       "@restaurant-workspace/api-core-utils-config": [
         "libs/api/core/utils-config/src/index.ts"
       ],
-      "@restaurant-workspace/api/data-access-dtos": [
-        "libs/api/data-access-dtos/src/index.ts"
+      "@restaurant-workspace/api-resto-controller": [
+        "libs/api/resto/controller/src/index.ts"
       ],
-      "@restaurant-workspace/api/data-access-resto": [
-        "libs/api/data-access-resto/src/index.ts"
+      "@restaurant-workspace/api-resto-data-access-dtos": [
+        "libs/api/resto/data-access-dtos/src/index.ts"
       ],
-      "@restaurant-workspace/api/feature-resto": [
-        "libs/api/feature-resto/src/index.ts"
+      "@restaurant-workspace/api-resto-data-access-service": [
+        "libs/api/resto/data-access-service/src/index.ts"
       ],
       "@restaurant-workspace/react-shared-lib": [
         "libs/react-shared-lib/src/index.ts"

@@ -1,0 +1,23 @@
+{
+  "root": "libs/api/resto/data-access-service",
+  "sourceRoot": "libs/api/resto/data-access-service/src",
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/api/resto/data-access-service/**/*.ts"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/api/resto/data-access-service"],
+      "options": {
+        "jestConfig": "libs/api/resto/data-access-service/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  },
+  "tags": []
+}

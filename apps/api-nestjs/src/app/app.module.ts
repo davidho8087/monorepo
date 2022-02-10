@@ -1,7 +1,7 @@
 import { Module } from '@nestjs/common';
 import { MongooseModule } from '@nestjs/mongoose';
 import { ApiFeatureConfigModule } from '@restaurant-workspace/api-core-config';
-import { ApiFeatureRestoModule } from '@restaurant-workspace/api/feature-resto';
+import { ApiFeatureRestoModule } from '@restaurant-workspace/api-resto-controller';
 
 import {
   MongoConfiguration,

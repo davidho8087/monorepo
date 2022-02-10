@@ -1,0 +1,23 @@
+{
+  "root": "libs/api/resto/controller",
+  "sourceRoot": "libs/api/resto/controller/src",
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/api/resto/controller/**/*.ts"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/api/resto/controller"],
+      "options": {
+        "jestConfig": "libs/api/resto/controller/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  },
+  "tags": []
+}
