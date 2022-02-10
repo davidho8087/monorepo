@@ -8,7 +8,7 @@ import { NestFactory } from '@nestjs/core';
 import {
   appConfiguration,
   AppConfiguration,
-} from '@restaurant-workspace/api/utils-config';
+} from '@restaurant-workspace/api-core-utils-config';
 
 import { AppModule } from './app/app.module';
 import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger';

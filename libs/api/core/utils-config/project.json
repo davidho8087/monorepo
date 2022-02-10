@@ -1,20 +1,20 @@
 {
-  "root": "libs/api/feature-config",
-  "sourceRoot": "libs/api/feature-config/src",
+  "root": "libs/api/core/utils-config",
+  "sourceRoot": "libs/api/core/utils-config/src",
   "projectType": "library",
   "targets": {
     "lint": {
       "executor": "@nrwl/linter:eslint",
       "outputs": ["{options.outputFile}"],
       "options": {
-        "lintFilePatterns": ["libs/api/feature-config/**/*.ts"]
+        "lintFilePatterns": ["libs/api/core/utils-config/**/*.ts"]
       }
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/libs/api/feature-config"],
+      "outputs": ["coverage/libs/api/core/utils-config"],
       "options": {
-        "jestConfig": "libs/api/feature-config/jest.config.js",
+        "jestConfig": "libs/api/core/utils-config/jest.config.js",
         "passWithNoTests": true
       }
     }

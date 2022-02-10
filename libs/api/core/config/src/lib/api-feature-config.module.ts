@@ -3,7 +3,7 @@ import { ConfigModule } from '@nestjs/config';
 import {
   appConfiguration,
   mongoConfiguration,
-} from '@restaurant-workspace/api/utils-config';
+} from '@restaurant-workspace/api-core-utils-config';
 @Module({
   imports: [
     ConfigModule.forRoot({

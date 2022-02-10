@@ -1,12 +1,12 @@
 import { Module } from '@nestjs/common';
 import { MongooseModule } from '@nestjs/mongoose';
-import { ApiFeatureConfigModule } from '@restaurant-workspace/api/feature-config';
+import { ApiFeatureConfigModule } from '@restaurant-workspace/api-core-config';
 import { ApiFeatureRestoModule } from '@restaurant-workspace/api/feature-resto';
 
 import {
   MongoConfiguration,
   mongoConfiguration,
-} from '@restaurant-workspace/api/utils-config';
+} from '@restaurant-workspace/api-core-utils-config';
 
 @Module({
   imports: [
